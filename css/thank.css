@@ -1,0 +1,73 @@
+/**
+ * @Author: fchuc
+ * @Date:   2018-10-02T14:56:31+02:00
+ * @Last modified by:   fchuc
+ * @Last modified time: 2018-10-02T15:29:22+02:00
+ */
+ /*! CSS Used from: https://d1ma8knj6twvg6.cloudfront.net/static/main.min.css?t=1537963360 */
+ body{margin:0;}
+ a{background:transparent;}
+ a:focus{outline:thin dotted;}
+ a:hover,a:active{outline:0;}
+ h1{font-size:2em;margin:.67em 0;}
+ *{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+ .rowa.a{width:100%;}
+ .rowa.a:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+ .containe{max-width:950px;margin:0 auto;}
+ .containe:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+ @media (min-width: 760px){
+ .containe.narrow{max-width:600px;}
+ }
+ @media (max-width: 760px){
+ .containe{max-width:100%!important;}
+ }
+ .col-1-1{float:left;padding:0 20px;width:100%;}
+ @media (max-width: 760px){
+ .col-1-1{width:100%!important;margin-bottom:20px!important;}
+ }
+ @media print{
+ .col-1-1{width:100%!important;}
+ }
+ body{font-size:18px;line-height:1.5em;font-family:"proxima-nova-soft","Proxima Nova Soft",sans-serif;}
+ h1,p{font-family:"proxima-nova-soft","Proxima Nova Soft",sans-serif;-webkit-font-smoothing:antialiased;}
+ h1:first-child,p:first-child{margin-top:0;}
+ p:last-child{margin-bottom:0;}
+ h1{font-weight:600;line-height:1.3em;color:#1b3544;}
+ p{line-height:1.5em;color:#444;}
+ a{color:#359173;text-decoration:none;transition:color .3s ease-in-out;}
+ a:hover{color:#2a735b;}
+ .ion,.ion-thumbsup:before{display:inline-block;font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+ .ion-thumbsup:before{content:"";}
+ body{min-height:100%;}
+ body#card{background:#f1f1fa;padding-top:4em;font-size:.9em;text-align:center;}
+ #header{border-bottom:1px solid #ddd;}
+ #header i{font-size:4em;color:#1b3544;}
+ #header .success i{color:#359173;}
+ .containe{padding-top:1em;padding-bottom:1em;}
+ @media (min-width: 760px){
+ .containe.card{max-width:500px;}
+ }
+ @media (max-width: 760px){
+ .containe.card{margin-right:20px;margin-left:20px;}
+ }
+ .card{padding:.9em;background:#fff;border:1px solid #ddd;}
+ .card h1{font-size:1.8em;}
+ p{line-height:1.5em;}
+ a.button{font-size:1em;text-transform:uppercase;font-weight:600;border:2px solid #359173;color:#359173;background:transparent;line-height:1em;padding:.6em .9em;transition:all .3s ease-in-out;}
+ a.button:hover{border-color:#2a735b;color:#2a735b;}
+ a.button:focus{outline:0;}
+ /*! CSS Used fontfaces */
+ @font-face{font-family:proxima-nova-soft;src:url(https://use.typekit.net/af/357d3c/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/357d3c/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/357d3c/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}
+ @font-face{font-family:proxima-nova-soft;src:url(https://use.typekit.net/af/279af5/00000000000000000001743f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/279af5/00000000000000000001743f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/279af5/00000000000000000001743f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}
+ @font-face{font-family:"Ionicons";src:url("https://d1ma8knj6twvg6.cloudfront.net/static/fonts/ionicons.eot?v=2.0.1");src:url("https://d1ma8knj6twvg6.cloudfront.net/static/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"),url("https://d1ma8knj6twvg6.cloudfront.net/static/fonts/ionicons.ttf?v=2.0.1") format("truetype"),url("https://d1ma8knj6twvg6.cloudfront.net/static/fonts/ionicons.woff?v=2.0.1") format("woff"),url("https://d1ma8knj6twvg6.cloudfront.net/static/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");font-weight:normal;font-style:normal;}
+
+ .row.a{
+     text-align: center;
+     background-color: #fff;
+     margin-top: 10%;
+     margin-bottom: 10%;
+ }
+
+ #featured{
+      background-color: #fff;
+}
