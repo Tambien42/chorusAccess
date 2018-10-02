@@ -1,3 +1,12 @@
+/**
+ * @Author: fchuc
+ * @Date:   2018-10-02T14:09:53+02:00
+ * @Last modified by:   fchuc
+ * @Last modified time: 2018-10-02T15:37:25+02:00
+ */
+
+
+
 /*
     Theme Name: Moderna
     Theme URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
@@ -2024,17 +2033,15 @@ article img.pull-right, article .align-right{
 }
 
 .test {
-	padding: 4%;
-	margin-top: 3%;
+	padding: 7%;
+}
+.testa {
+	padding-bottom: 47px;
 }
 
 #imgaboutus {
 	width: 80%;
 	margin-top: 11%;
-}
-
-.box-gray.aligncenter.test {
-	margin-bottom: 33px;
 }
 
 #un {
